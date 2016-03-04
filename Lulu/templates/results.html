@@ -1,0 +1,21 @@
+<!DOCTYPE HTML>
+<title>Title Name</title>
+<link rel=stylesheet type=text/css href="{{ url_for('static', filename='style_lulu.css')}}">
+<div class=page>
+    <h1>Header 1</h1>
+    <div class=metanav>
+
+        <h4>
+            Results:
+        </h4>
+
+        <ul>
+            {% for result in results %}
+                <li>{{ result.decode('utf8') }}</li>
+            {% endfor %}
+        </ul>
+        
+        </form>
+
+    </div>
+</div>
