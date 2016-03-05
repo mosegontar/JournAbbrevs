@@ -1,23 +1,13 @@
-<!DOCTYPE HTML>
-<title>Title Name</title>
-<link rel=stylesheet type=text/css href="{{ url_for('static', filename='style_lulu.css')}}">
-<div class=page>
-    <h1>Header 1</h1>
-    <div class=metanav>
+{% extends "base.html" %}
+{% block query %}
 
-        <h4>
-            Enter journal name
-        </h4>
-
-        <form id='query' method='POST' action='/result'>
-            <p>
-                Query: <input type='text' name='query' />
-            </p>
-
-            <p>
-                <input type='submit' value='Enter' />
-            </p>
-        </form>
+<form id='query' method='POST' action='/result'>
+    <h4> Enter journal name: </h4>
+    <p>
+        <input type='text' name='query' /> <input type='submit' value='Enter' />
+    </p>
+</form>
 
     </div>
 </div>
+{% endblock %}
