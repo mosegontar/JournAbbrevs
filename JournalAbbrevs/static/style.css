@@ -1,0 +1,43 @@
+body             { font-family: sans-serif; background: #F4F8F8; }
+
+a, h1, h2        { color: #2C3D55; }
+h1, h2           { font-family: 'Andale Mono', serif;}
+
+input[type=text]  {background-color: #F4F8F8;
+				   font-family: 'Andale Mono', serif;
+				   color: black;
+				   font-size: 1em; 
+				   width: 100%; 
+				   padding:8px; 
+				   border: none; 
+				   border-bottom: 2px solid gray;}
+
+input:focus 	  {outline-width: 0;}
+
+button 			  {background: #F4F8F8;
+				   	color: #2C3D55;
+				   	font-size: 1.5em;
+				   	font-weight: bold;
+				   	font-family: 'Andale Mono', serif;  
+					width: 100%; 
+					padding:8px;
+					border: none;
+					border-radius:0px;}
+
+#query_button 	 {margin: 0 auto;}
+
+li 				 {font-family: serif; color: #2C3D55;}
+
+.abbrev			 {list-style-type: none; font-weight: bold;}
+.head 			 {text-align: center; margin-left: auto; margin-right: auto; margin-top: 2em; width: 100%;}
+.head a 		 {text-decoration: none}
+.sub 			 {text-align: center; margin-left: auto; margin-right: auto;  width: 100%;}			 
+
+.messages		 {font-family: 'Andale Mono', serif; text-align: center; padding: 5px; margin: 0 auto; width: 50%; background: #ff8080;}
+
+#query_form       	 {padding: .5em; margin: 0 auto; margin-top: 1em; width: 52%;}
+.results     	 {padding: 1em; margin: 0 auto; margin-top: 1em; width: 53%;}
+
+.main			 {position: absolute; top: 25%; left:20%; right:20%; background: red; }
+.metanav         { text-align: left; font-size: 0.8em; padding: 0.3em;
+                  margin-bottom: 1em; background: red; }
