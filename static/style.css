@@ -33,7 +33,7 @@ li 				 {font-family: serif; color: #2C3D55;}
 .head a 		 {text-decoration: none}
 .sub 			 {text-align: center; margin-left: auto; margin-right: auto;  width: 100%;}			 
 
-.messages		 {text-align: center; padding: 1em; margin: 0 auto; margin-top: 1em; width: 45%; background: #ff8080;}
+.messages		 {font-family: 'Andale Mono', serif; text-align: center; padding: 5px; margin: 0 auto; width: 50%; background: #ff8080;}
 
 #query_form       	 {padding: .5em; margin: 0 auto; margin-top: 1em; width: 52%;}
 .results     	 {padding: 1em; margin: 0 auto; margin-top: 1em; width: 53%;}
